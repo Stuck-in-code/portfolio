@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.portfolio-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(199, 202, 211);
+  position: relative;
+  padding: 0 5%;
+}
+.portfolio-container .side-bar {
+  width: 25%;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 5% 0;
+}
+.side-bar .personal-info {
+  margin-bottom: 3rem;
+}
+.personal-info img {
+  display: block;
+  margin: auto;
+  margin-bottom: 2rem;
+  width: 200px;
+  border-radius: 50%;
+}
+.personal-info h1 {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+.personal-info .links {
+  padding: 1rem;
+}
+.links a {
+  text-decoration: none;
+  font-weight: 100;
+  display: inline-block;
+  font-size: 0.9rem;
+  color: rgb(150, 115, 255);
+}
+.links span {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.664);
+}
+.side-bar ul {
+  background-color: aliceblue;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.side-bar ul li {
+  display: inline-block;
+  margin: 10px;
+}
+.side-bar ul li a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
